@@ -1,6 +1,6 @@
 <?php
-require 'php/functions.php';
-$elektronik = query("SELECT * FROM elektronik");
+require 'functions.php';
+$mahasiswa = query("SELECT * FROM mahasiswa");
 ?>
 
 
