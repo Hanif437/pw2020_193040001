@@ -42,16 +42,16 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`id`, `nama`, `nrp`, `email`, `jurusan`, `gambar`) VALUES
-(1, 'Putra Hanif Ammarta', '193040001', 'putra@mail.unpas.ac.id', 'Teknik Informatika', 'putra.jpg'),
-(2, 'David Dalil', '193040002', 'david@mail.unpas.ac.id', 'Teknik Informatika', 'david.jpg'),
-(3, 'Maulana Muhammad Adha', '193040003', 'maulana@mail.unpas.ac.id', 'Teknik Informatika', 'maulana.jpg'),
-(4, 'Reza Dwiyana', '193040005', 'reza@mail.unpas.ac.id', 'Teknik Informatika', 'reza.jpg'),
-(5, 'Lamhot Kristofer', '193040006', 'lamhot@mail.unpas.ac.id', 'Teknik Informatika', 'lamhot.jpg'),
-(6, 'Anjara Darojatun', '193040007', 'anjara@mail.unpas.ac.id', 'Teknik Informatika', 'anjara.jpg'),
-(7, 'Agung Gumelar', '193040008', 'agung@mail.unpas.ac.id', 'Teknik Infomartika', 'agung.jpg'),
-(8, 'Muhammad Wildhan Kusuma', '193040009', 'wildhan@mail.unpas.ac.id', 'Teknik Informatika', 'wildhan.jpg'),
-(9, 'Fahri Arliansyah', '193040010', 'fahri@mail.unpas.ac.id', 'Teknik Informatika', 'fahri.jpg'),
-(10, 'Muhammad Farhan Assidiq', '193040011', 'farhan@mail.unpas.ac.id', 'Teknik Informatika', 'farhan.jpg');
+(1, 'Putra Hanif Ammarta', '193040001', 'putra@mail.unpas.ac.id', 'Teknik Informatika', 'jo yuri.jpg'),
+(2, 'David Dalil', '193040002', 'david@mail.unpas.ac.id', 'Teknik Informatika', 'choi yena.jpg'),
+(3, 'Maulana Muhammad Adha', '193040003', 'maulana@mail.unpas.ac.id', 'Teknik Informatika', 'lee chaeyeon.jpg'),
+(4, 'Reza Dwiyana', '193040005', 'reza@mail.unpas.ac.id', 'Teknik Informatika', 'yabuki nako.jpg'),
+(5, 'Lamhot Kristofer', '193040006', 'lamhot@mail.unpas.ac.id', 'Teknik Informatika', 'honda hitomi.jpg'),
+(6, 'Anjara Darojatun', '193040007', 'anjara@mail.unpas.ac.id', 'Teknik Informatika', 'kwon eunbi.jpg'),
+(7, 'Agung Gumelar', '193040008', 'agung@mail.unpas.ac.id', 'Teknik Infomartika', 'miyawaki sakura.jpg'),
+(8, 'Muhammad Wildhan Kusuma', '193040009', 'wildhan@mail.unpas.ac.id', 'Teknik Informatika', 'jang wonyoung.jpg'),
+(9, 'Fahri Arliansyah', '193040010', 'fahri@mail.unpas.ac.id', 'Teknik Informatika', 'kim chaewon.jpg'),
+(10, 'Muhammad Farhan Assidiq', '193040011', 'farhan@mail.unpas.ac.id', 'Teknik Informatika', 'ahn yujin.jpg');
 
 --
 -- Indexes for dumped tables
