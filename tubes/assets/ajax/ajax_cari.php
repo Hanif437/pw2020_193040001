@@ -1,32 +1,37 @@
 <?php
-require '../functions.php';
+require '../../php/functions.php';
 $mahasiswa = cari($_GET['keyword']);
 ?>
 
-<table border="1" cellpadding="10" cellspacing="0">
-  <tr>
-    <th>NO</th>
-    <th>Gambar</th>
-    <th>Nama</th>
-    <th>Aksi</th>
-  </tr>
+<section id="banner">
+  <div class="inner">
+    <header>
+      <h1>Electronics Store</h1>
+    </header>
+    <div class="flex ">
 
-  <?php if (empty($mahasiswa)) : ?>
-    <tr>
-      <td colspan="4">
-        <p style="color: red;"><i><b>Data Mahasiswa Tidak Ditemukan</b></i></p>
-      </td>
-    </tr>
-  <?php endif; ?>
-  <?php $i = 1;
-  foreach ($mahasiswa as $m) : ?>
-    <tr>
-      <td><?= $i++; ?></td>
-      <td><img src="img/<?= $m['gambar']; ?>"></td>
-      <td><?= $m['nama']; ?></td>
-      <td>
-        <a href="detail.php?id=<?= $m['id']; ?>">Lihat Detail</a>
-      </td>
-    </tr>
-  <?php endforeach; ?>
-</table>
+      <section id="three" class="wrapper align-center">
+        <div class="inner">
+          <div class="flex flex-2">
+            <?php foreach ($elektronik as $elektro) : ?>
+              <article>
+                <div class="image">
+                  <img src="assets/img/<?= $elektro['foto']; ?>" />
+                </div>
+                <header>
+                  <h3><?= $elektro['kode_barang']; ?></h3>
+                </header>
+                <p>
+                  <a href="php/detail.php?id=<?= $elektro['id']; ?>">
+                    <?= $elektro['nama']; ?>
+                  </a>
+                </p>
+                <footer>
+                </footer>
+              </article>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      </section>
+    </div>
+</section>
