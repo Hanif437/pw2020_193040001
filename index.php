@@ -173,26 +173,53 @@
         </article>
         <article>
           <header>
+            <h3>Pertemuan 10</h3>
+          </header>
+          <p>Kumpulan tugas dan latihan pada perkuliahan</p>
+          <footer>
+            <a href="kuliah/pertemuan10/latihan1.php" class="button special">Latihan 1</a>
+          </footer>
+          <footer>
+            <a href="kuliah/pertemuan10/latihan2.php" class="button special">Latihan 2</a>
+          </footer>
+          <footer>
+            <a href="kuliah/pertemuan10/latihan3.php" class="button special">Latihan 3</a>
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h3>Pertemuan 11</h3>
+          </header>
+          <p>Kumpulan tugas dan latihan pada perkuliahan</p>
+          <footer>
+            <a href="kuliah/pertemuan11/index.php" class="button special">Pertemuan 11</a>
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h3>Pertemuan 12</h3>
+          </header>
+          <p>Kumpulan tugas dan latihan pada perkuliahan</p>
+          <footer>
+            <a href="kuliah/pertemuan12/index.php" class="button special">Pertemuan 12</a>
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h3>Pertemuan 13</h3>
+          </header>
+          <p>Kumpulan tugas dan latihan pada perkuliahan</p>
+          <footer>
+            <a href="kuliah/pertemuan13/index.php" class="button special">Pertemuan 13</a>
+          </footer>
+        </article>
+        <article>
+          <header>
             <h3>Tugas Besar</h3>
           </header>
           <p>Hasil tugas besar</p>
           <footer>
             <a href="tubes/index.php" class="button special">Tugas Besar</a>
-          </footer>
-        </article>
-        <article>
-          <header>
-            <h3>Kuliah</h3>
-          </header>
-          <p>Kumpulan tugas dan latihan pada perkuliahan</p>
-          <footer>
-            <a href="kuliah/pertemuan10/latihan1.php" class="button">Pertemuan ke 10</a>
-          </footer>
-          <footer>
-            <a href="kuliah/pertemuan11/index.php" class="button">Pertemuan ke 11</a>
-          </footer>
-          <footer>
-            <a href="kuliah/pertemuan12/index.php" class="button">Pertemuan ke 12</a>
           </footer>
         </article>
       </div>
