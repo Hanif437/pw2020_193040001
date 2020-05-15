@@ -72,7 +72,7 @@ if (isset($_POST['tambah'])) {
                 </td>
                 <td>:</td>
                 <td><input type="file" name="foto" id="foto" class="foto" onchange="previewImage()"></td>
-                <p><img src="../assets/img/banner.jpg" width="120" style="display: inline-block" class="img-preview"></p>
+                <p><img src="../assets/img/nophoto.jpg" width="100" style="display: inline-block" class="img-preview"></p>
               </tr>
               <tr>
                 <td>
