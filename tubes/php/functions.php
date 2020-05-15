@@ -34,7 +34,7 @@ function upload()
     $tmp_file = $_FILES['foto']['tmp_name'];
 
     if ($error == 4) {
-        return 'banner.jpg';
+        return 'nophoto.jpg';
     }
 
     $daftar_foto = ['jpg', 'jpeg', 'png'];
@@ -66,7 +66,7 @@ function upload()
     $nama_file_baru .= '.';
     $nama_file_baru .= $ekstensi_file;
 
-    move_uploaded_file($tmp_file, 'img/' . $nama_file_baru);
+    move_uploaded_file($tmp_file, '../assets/img/' . $nama_file_baru);
     return $nama_file_baru;
 }
 
@@ -87,7 +87,7 @@ function tambah($data)
 
     $query = "INSERT INTO elektronik
                 VALUES  
-                (null, '$kode_barang', '$foto', '$nama', '$jenis_barang', '$harga')";
+                (null, '$foto', '$kode_barang' , '$nama', '$jenis_barang', '$harga')";
 
     mysqli_query($conn, $query);
 
@@ -99,8 +99,8 @@ function hapus($id)
     $conn = koneksi();
 
     $elektro = query("SELECT * FROM elektronik WHERE id = $id");
-    if ($elektro['foto'] != 'banner.jpg') {
-        unlink('img/' . $elektro['foto']);
+    if ($elektro['foto'] != 'nophoto.jpg') {
+        unlink('../assets/img/' . $elektro['foto']);
     }
 
 
@@ -126,13 +126,13 @@ function ubah($data)
         return false;
     }
 
-    if ($foto == 'banner.jpg') {
+    if ($foto == 'nophoto.jpg') {
         $foto = $foto_lama;
     }
 
     $query = "UPDATE elektronik SET
-                kode_barang = '$kode_barang',
                 foto = '$foto',
+                kode_barang = '$kode_barang',
                 nama = '$nama',
                 jenis_barang = '$jenis_barang',
                 harga = '$harga'
