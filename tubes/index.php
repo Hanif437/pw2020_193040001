@@ -37,10 +37,12 @@ if (isset($_POST['cari'])) {
                 <form method="post" action="#">
                     <div class="row uniform">
                         <div class="9u 12u$(small)">
-                            <input type="text" name="keyword" id="query" value="" class="keyword" placeholder="Masukkan nama barang" />
+                            <div class="keyword">
+                                <input type="text" name="keyword" id="query" value="" class="keyword" placeholder="Masukkan nama barang" required autocomplete="off" />
+                            </div>
                         </div>
                         <div class="3u$ 12u$(small)">
-                            <input type="submit" value="Cari" name="cari" class="fit tombol-cari" />
+                            <input type="submit" value="Cari" name="cari" class="fit" />
                         </div>
                     </div>
                 </form>
@@ -55,7 +57,6 @@ if (isset($_POST['cari'])) {
                 <h1>Electronics Store</h1>
             </header>
             <div class="flex ">
-
                 <section id="three" class="wrapper align-center">
                     <div class="inner">
                         <div class="flex flex-2">
@@ -69,7 +70,9 @@ if (isset($_POST['cari'])) {
                                     </header>
                                     <p>
                                         <a href="php/detail.php?id=<?= $elektro['id']; ?>">
-                                            <?= $elektro['nama']; ?>
+                                            <button class="button flex">
+                                                <?= $elektro['nama']; ?>
+                                            </button>
                                         </a>
                                     </p>
                                     <footer>
